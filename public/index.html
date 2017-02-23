@@ -29,21 +29,13 @@
 
             <div class="masthead clearfix">
                 <div class="inner">
-                    <h3 class="masthead-brand">get-uber-raml</h3>
+                    <h3 class="masthead-brand">get-me-jsonpath</h3>
                 </div>
             </div>
 
             <div class="inner cover">
-                <p>This tool generates a uber raml from a zip file. The contents of zip file should contain the .raml
-                    and its includes</p>
-                <h1 class="cover-heading">Upload your RAML .zip</h1>
-                <form ref='uploadForm' id='uploadForm' action='/upload' method='post' encType="multipart/form-data">
-                    <label class="custom-file">
-                        <input type="file" name="sampleFile" class="custom-file-input"/>
-                        <span class="custom-file-control"></span>
-                    </label>
-                    <input type='submit' value='Upload!' class="btn btn-lg btn-default"/>
-                </form>
+                <p>This tool generates a jsonpath from the given json document<br> Send a POST request to /jsonpaths and profit</p>
+
             </div>
 
             <div class="mastfoot">
